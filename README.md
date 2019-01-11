@@ -259,6 +259,13 @@ It will show you the steps to:
 ## Finally Restart APACHE2
    * `sudo service apache2 restart`     
    * Now you can access your web app open up http://18.191.225.137.xip.io in the browser.
+   
+## Third Party Resources Used
+* Udacity Full-Stack Nanodegree
+* http://flask.pocoo.org/docs/0.12/deploying/mod_wsgi/
+* https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+* https://whatismyipaddress.com/ip/18.191.225.137
+* https://console.developers.google.com/apis/dashboard?project=catalog-project-218501
 
 # Contributing
 Please see CONTRIBUTING.md.
