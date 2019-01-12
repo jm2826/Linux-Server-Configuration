@@ -77,6 +77,7 @@ It will show you the steps to:
      `sudo nano /etc/ssh/sshd_config`
 
      * Change the "Port 22" in the file to "Port 2200"
+     * Change code for Root Login to this: 'PermitRootLogin no'
      * Verify PermitRootLogin is no
      * Verify PasswordAuthentication is no
 
