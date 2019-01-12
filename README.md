@@ -85,9 +85,12 @@ It will show you the steps to:
 
 
   3. Configure the Uncomplicated Firewall (UFW) to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123), run the following commands :
+     * 'sudo ufw deny incoming'
+     * 'sudo ufw allow outgoing'
      * `sudo ufw allow 2200`
      * `sudo ufw allow 80`
      * `sudo ufw allow 123`
+     * If ufw not installed 'sudo apt-get install ufw -y'
 
      Then enable ufw, run the following command :
      * `sudo ufw enable`
